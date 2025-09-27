@@ -1,24 +1,29 @@
 # scheduling-ethos
-How to Use
 
-Make an Excel file participants.xlsx with one column of participant names.
-Example:
+This project generates a schedule for a **2 vs 2 competitive programming contest** from a list of participants.  
+It takes an Excel file with participant names and produces another Excel file with scheduled time slots.
 
-Name
-Alice
-Bob
-Charlie
-David
-Eve
-Frank
-Grace
-Helen
+---
 
+## How to Use
 
-Run the script.
+1. **Prepare an Excel file** called `participants.xlsx` with one column of participant names.  
 
-It will create contest_schedule.xlsx with a schedule like:
+   Example:
 
-Time	Team 1	Team 2
-10:00	Alice, Bob	Charlie, David
-10:30	Eve, Frank	Grace, Helen
+   | Name    |
+   |---------|
+   | Alice   |
+   | Bob     |
+   | Charlie |
+   | David   |
+   | Eve     |
+   | Frank   |
+   | Grace   |
+   | Helen   |
+
+2. **Run the script** (make sure you have Python and the required libraries installed: `pandas`, `openpyxl`).
+
+   ```bash
+   python schedule.py
+
